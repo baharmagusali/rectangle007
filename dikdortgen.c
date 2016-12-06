@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
 	int a,b;
-	float area;
+	int area;
 	
 	printf("a kenarinin uzunulugu gir:");
 	scanf("%d",&a);
@@ -11,7 +11,7 @@ int main(){
 	
 	area = a * b;
 	
-	printf("area : %.2f",area);
+	printf("area : %d",area);
 	
 	
 	
